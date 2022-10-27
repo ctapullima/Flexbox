@@ -1,0 +1,14 @@
+/* aqui vemos e cuadro purpura, separados por extremos y  envueltos para se alinen los bloques para abajo  */
+.padre-1 {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* aki esta el tamaño de los cuadritos dentro */
+.padre-1 div {
+    border: 1px solid lightgray;
+    padding: 100px;
+    font-size: 20px;
+}
