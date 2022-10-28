@@ -21,7 +21,7 @@ header {
 .padre-2 {
     border: 1px solid lightgray;
     padding: 0px 0px 50px 0px;
-    display: flex;
+
 }
 
 .padre-2 h4 {
@@ -31,6 +31,16 @@ header {
 footer {
     border: 1px solid lightgray;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+
+}
+
+
+@media (min-width:768px) {
+    .padre-2 {
+        display: flex;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
 }
